@@ -9,5 +9,5 @@ const person = {
 
 var team = players;
 var team1 = [...players];
-var cap1 = person;
+var cap1 = {...person};
 export {players,person,team,team1,cap1}
